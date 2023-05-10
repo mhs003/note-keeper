@@ -7,7 +7,7 @@ import ajax from "./controllers/ajax";
 
 
 function App() {
-	const BASE_URL = "http://bpakhi.cf/note_keeper_api/index.php";
+	const BASE_URL = "_URL_"; // Place your api.php file's url here that is running in your server
 
 	let defaultNotes = [
 		{
