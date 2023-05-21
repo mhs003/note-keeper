@@ -31,7 +31,7 @@ function App() {
 			setNotes(JSON.parse(data));
 			setIsLoading(false);
 		} else {
-			conosle.log(status + ' ' + resp_code + ' ' + data);
+			console.log(status + ' ' + resp_code + ' ' + data);
 		}
 	});
 
