@@ -7,7 +7,7 @@ import ajax from "./controllers/ajax";
 
 
 function App() {
-	const BASE_URL = "http://bpakhi.cf/nkapi/"; // Place your api's url here that is running in your server
+	const BASE_URL = "https://bpakhi.cf/nkapi/"; // Place your api's url here that is running in your server
 
 	let defaultNotes = [
 		{
