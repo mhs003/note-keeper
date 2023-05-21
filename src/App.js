@@ -7,7 +7,7 @@ import ajax from "./controllers/ajax";
 
 
 function App() {
-	const BASE_URL = "_URL_"; // Place your api.php file's url here that is running in your server
+	const BASE_URL = "http://mhs-php-apis.rf.gd/note-keeper-api/"; // Place your api's url here that is running in your server
 
 	let defaultNotes = [
 		{
