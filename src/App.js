@@ -30,6 +30,8 @@ function App() {
 		if (status === 'success') {
 			setNotes(JSON.parse(data));
 			setIsLoading(false);
+		} else {
+			conosle.log(status + ' ' + resp_code + ' ' + data);
 		}
 	});
 
